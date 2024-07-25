@@ -4,6 +4,9 @@
     $tel_aluno = "12345-6789";
 
     $sql = "INSERT INTO aluno VALUES (null, '".$nome_aluno."', '".$email_aluno."', '".$tel_aluno."')";
+    $sql = "SELECT * FROM aluno";
+    $sql = "UPDATE aluno SET ";
+    $sql = "INSERT INTO aluno VALUES (null, '".$nome_aluno."', '".$email_aluno."', '".$tel_aluno."')";
 
     $hostname = "localhost";
     $database = "schema_pdw";

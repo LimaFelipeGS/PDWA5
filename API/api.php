@@ -27,7 +27,7 @@ if($action === "mostrar-dados") {
                      valor 
                 FROM carros";
     
-    //Preparação e executa a variável consulta que executa o query declarado anteriormente
+    //Prepara e executa a variável consulta que executa o query declarado anteriormente
     $consulta = $conexao->prepare($query);
     $consulta->execute();
 
